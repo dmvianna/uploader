@@ -1,0 +1,29 @@
+{
+  "name": "uploader",
+  "version": "1.0.0",
+  "description": "web app for uploading big CSV files",
+  "main": "server/src/index.js",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "test": "mocha server/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmvianna/uploader.git"
+  },
+  "keywords": [
+    "csv",
+    "webapp",
+    "stream",
+    "upload"
+  ],
+  "author": "Daniel Vianna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmvianna/uploader/issues"
+  },
+  "homepage": "https://github.com/dmvianna/uploader#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
