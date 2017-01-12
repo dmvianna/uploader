@@ -5,7 +5,7 @@
   "main": "server/src/index.js",
   "scripts": {
     "start": "node server/src/index.js",
-    "test": "mocha server/test"
+    "test": "source ./tests.sh"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "url": "https://github.com/dmvianna/uploader/issues"
   },
   "homepage": "https://github.com/dmvianna/uploader#readme",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^3.2.0"
   }
 }
